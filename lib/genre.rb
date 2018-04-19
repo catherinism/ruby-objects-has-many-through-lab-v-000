@@ -13,7 +13,7 @@ class Genre
     @songs
   end
 
-  def genres
+  def artists
     self.songs.collect do |song|
       song.genre
     end
