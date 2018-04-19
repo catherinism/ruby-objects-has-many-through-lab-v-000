@@ -10,9 +10,9 @@ class Genre
   end
 
   def add_song(song)
-
+    #binding.pry
      @songs << song
-     binding.pry
+     
    end
 
   def songs
