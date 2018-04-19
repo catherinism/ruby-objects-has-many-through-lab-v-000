@@ -7,7 +7,7 @@ class Doctor
     @appointments = []
   end
 
-  def add_appointment(name)
+  def add_appointment(appointment_date, name)
     @appointments
 
   end
