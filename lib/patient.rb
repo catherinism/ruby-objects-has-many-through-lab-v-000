@@ -13,9 +13,4 @@ class Patient
     appointment.patient = self
   end
 
-  def doctors
-
-
-  end
-
   end
