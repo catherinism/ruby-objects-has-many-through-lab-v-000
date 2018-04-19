@@ -2,7 +2,7 @@ require 'pry'
 
 class Genre
 
-  attr_accessor :name
+  attr_accessor :name, :songs
 
   def initialize(name)
     @name = name
@@ -12,7 +12,7 @@ class Genre
   def add_song(song)
     #binding.pry
      @songs << song
-     
+
    end
 
   def songs
