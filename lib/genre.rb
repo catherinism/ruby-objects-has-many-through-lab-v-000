@@ -12,7 +12,6 @@ class Genre
   def add_song(song)
     #binding.pry
      @songs << song
-     song.artist = self
    end
 
   def songs
