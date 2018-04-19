@@ -9,7 +9,7 @@ class Doctor
     @appointments = []
   end
 
-  def add_appointment(appointment, doctor_who)
+  def add_appointment(appointment, doctor)
     @appointments << appointment
 
 
