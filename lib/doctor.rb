@@ -11,8 +11,8 @@ class Doctor
 
   def add_appointment(appointment, doctor)
     @appointments << appointment
-
-
+    appointment.doctor = self
+    self.doctors << appointment.doctor
   end
 
 end
